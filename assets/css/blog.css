@@ -16,3 +16,26 @@ header h1 {
     background-color: black;
     color: white;
   }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #29d3bc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .nav-item-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+  }
+  .nav-item-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: space-between;
+  }
