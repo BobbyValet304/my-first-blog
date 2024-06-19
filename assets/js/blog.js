@@ -17,9 +17,13 @@ function createBlogs() {
     const p2 = document.createElement("p");
     const p3 = document.createElement("p");
     p1.textContent = "Username:" + blogs[index].username;
+    p2.textContent = "Blog Title:" + blogs[index].blogtitle;
+    p3.textContent = "Blog Content:" + blogs[index].blogcontent;
+    div.appendChild(p1);
+    div.appendChild(p2);
+    div.appendChild(p3);
+    blogSelection.appendChild(div);
   }
 }
+
 createBlogs();
-//get each element and set text content for the p's
-//append p to the div element
-//append div to the blog-selection element
